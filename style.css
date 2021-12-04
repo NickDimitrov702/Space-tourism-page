@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap');
+
+html {
+    background-image: url('./assets//home/background-home-desktop.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.logo {
+    /* margin-right: 64px; */
+    width: 48;
+    height: 48;
+}
+
+
+#header-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    max-width: 100%;
+    max-height: 96px;
+    transform: translateX(11%) translateY(40px);
+
+}
+
+#line-effect {
+    width: 473px;
+    height: 1px;
+    background-color: #a8a8a8;
+    -webkit-transform: translateX(7%);
+    transform: translateX(7%);
+    z-index: 33333;
+}
+
+#nav-bar-wrapper {
+    /* font-family: 'Barlow Condensed', sans-serif; */
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    max-height: 96px;
+    background: rgba(255, 255, 255, 0.04); 
+    backdrop-filter: blur(81.5485px);    
+    /* backdrop-filter allows: blur effect or color shifting to the are behind an element, */  
+    /*have the make the background of the element partially transperant */ 
+    border-bottom: 3px solid transparent;
+}
+
+#nav-bar-links {
+    margin-left: 123px;
+    margin-right: 165px;
+    margin-top: 39px;
+    margin-bottom: 38px;
+    align-items: center;
+    display: flex;
+    width: 542px;
+    height: 19px;
+    
+    
+}
+
+#nav-bar-links li {
+    max-width: 126px;
+    display: flex;
+    padding-right: -14px;
+    list-style-type: none;
+    margin-right: 58px;
+    line-height: 19.2px;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    height: 97px;
+    
+    
+}
+
+#nav-bar-links li:hover {
+    border-bottom: 3px solid honeydew;
+}
+
+#nav-bar-links span {
+    width: 100%;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    color: honeydew;
+    padding-right: 5px;
+}
+
+#nav-bar-links li a {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    text-decoration: none;
+    color: honeydew;
+    
+}
